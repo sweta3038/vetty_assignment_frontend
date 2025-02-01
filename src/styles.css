@@ -1,0 +1,57 @@
+.app {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.board {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+.list {
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 250px;
+}
+
+.list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards {
+    min-height: 100px;
+    padding: 10px 0;
+}
+
+.card {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-list-btn, .add-card-btn, .delete-btn {
+    cursor: pointer;
+    background: lightblue;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+}
